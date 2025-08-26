@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Coaching() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
       {/* Navigation */}
       <nav className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -11,11 +11,11 @@ export default function Coaching() {
               <Link href="/" className="text-2xl font-bold text-slate-900">Change By Design</Link>
             </div>
             <div className="hidden md:flex space-x-8">
-              <Link href="/" className="text-slate-700 hover:text-orange-600 font-medium">Home</Link>
-              <Link href="/coaching" className="text-orange-600 font-medium">Executive Coaching</Link>
-              <Link href="/training" className="text-slate-700 hover:text-orange-600 font-medium">Leadership Training</Link>
-              <Link href="/programs" className="text-slate-700 hover:text-orange-600 font-medium">Programs</Link>
-              <Link href="/contact" className="bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-colors">Contact</Link>
+              <Link href="/" className="text-slate-700 hover:text-[#235ba8] font-medium">Home</Link>
+              <Link href="/coaching" className="text-[#235ba8] font-medium">Executive Coaching</Link>
+              <Link href="/training" className="text-slate-700 hover:text-[#235ba8] font-medium">Leadership Training</Link>
+              <Link href="/programs" className="text-slate-700 hover:text-[#235ba8] font-medium">Programs</Link>
+              <Link href="/contact" className="bg-[#235ba8] text-white px-4 py-2 rounded-lg hover:bg-[#1e4a8c] transition-colors">Contact</Link>
             </div>
           </div>
         </div>
@@ -110,28 +110,28 @@ export default function Coaching() {
           
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
+              <div className="w-16 h-16 bg-[#235ba8] text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Discovery</h3>
               <p className="text-slate-600">
                 Comprehensive assessment of your current leadership style, challenges, and aspirations
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
+              <div className="w-16 h-16 bg-[#235ba8] text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Design</h3>
               <p className="text-slate-600">
                 Create a personalized coaching plan with clear objectives and success metrics
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
+              <div className="w-16 h-16 bg-[#235ba8] text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Develop</h3>
               <p className="text-slate-600">
                 Regular coaching sessions focused on skill building and behavioral change
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">4</div>
+              <div className="w-16 h-16 bg-[#235ba8] text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">4</div>
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Deploy</h3>
               <p className="text-slate-600">
                 Apply new skills in real-world scenarios with ongoing support and feedback
@@ -142,7 +142,7 @@ export default function Coaching() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-orange-600">
+      <section className="py-16 bg-[#235ba8]">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-white mb-4">
             Ready to Transform Your Leadership?
