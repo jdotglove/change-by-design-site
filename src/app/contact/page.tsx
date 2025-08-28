@@ -2,25 +2,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
-      {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-6">
-            <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold text-slate-900">Change By Design</Link>
-            </div>
-            <div className="hidden md:flex space-x-8">
-              <Link href="/" className="text-slate-700 hover:text-orange-600 font-medium">Home</Link>
-              <Link href="/coaching" className="text-slate-700 hover:text-orange-600 font-medium">Executive Coaching</Link>
-              <Link href="/training" className="text-slate-700 hover:text-orange-600 font-medium">Leadership Training</Link>
-              <Link href="/programs" className="text-slate-700 hover:text-orange-600 font-medium">Programs</Link>
-              <Link href="/contact" className="text-orange-600 font-medium">Contact</Link>
-            </div>
-          </div>
-        </div>
-      </nav>
-
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-slate-50">
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
@@ -56,7 +38,7 @@ export default function Contact() {
                       type="text"
                       id="firstName"
                       name="firstName"
-                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Your first name"
                     />
                   </div>
@@ -68,7 +50,7 @@ export default function Contact() {
                       type="text"
                       id="lastName"
                       name="lastName"
-                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Your last name"
                     />
                   </div>
@@ -82,7 +64,7 @@ export default function Contact() {
                     type="email"
                     id="email"
                     name="email"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="your.email@company.com"
                   />
                 </div>
@@ -95,7 +77,7 @@ export default function Contact() {
                     type="text"
                     id="company"
                     name="company"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="Your organization"
                   />
                 </div>
@@ -107,7 +89,7 @@ export default function Contact() {
                   <select
                     id="role"
                     name="role"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                   >
                     <option value="">Select your role</option>
                     <option value="ceo">CEO/President</option>
@@ -128,7 +110,7 @@ export default function Contact() {
                   <select
                     id="interest"
                     name="interest"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                   >
                     <option value="">What interests you most?</option>
                     <option value="coaching">Executive Coaching</option>
@@ -148,14 +130,14 @@ export default function Contact() {
                     id="message"
                     name="message"
                     rows={4}
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="What transformation challenge are you facing? What would success look like?"
                   ></textarea>
                 </div>
                 
                 <button
                   type="submit"
-                  className="w-full bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition-colors"
+                  className="w-full bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
                 >
                   Start the Conversation
                 </button>
@@ -240,40 +222,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-slate-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div className="col-span-2">
-              <h4 className="text-2xl font-bold mb-4">Change By Design</h4>
-              <p className="text-slate-300 mb-4">
-                Transforming organizations through innovative leadership development, strategic change management, 
-                and custom-designed solutions that drive sustainable growth.
-              </p>
-            </div>
-            <div>
-              <h5 className="font-semibold mb-4">Services</h5>
-              <ul className="space-y-2 text-slate-300">
-                <li><Link href="/coaching" className="hover:text-white">Executive Coaching</Link></li>
-                <li><Link href="/training" className="hover:text-white">Leadership Training</Link></li>
-                <li><Link href="/programs" className="hover:text-white">Custom Programs</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="font-semibold mb-4">Contact</h5>
-              <ul className="space-y-2 text-slate-300">
-                <li>info@changebydesign.com</li>
-                <li>(555) 123-4567</li>
-                <li><Link href="/contact" className="hover:text-white">Get in Touch</Link></li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 Change By Design. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

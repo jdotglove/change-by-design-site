@@ -2,35 +2,23 @@ import Link from "next/link";
 
 export default function Training() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 to-amber-50">
-      {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-6">
-            <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold text-slate-900">Change By Design</Link>
-            </div>
-            <div className="hidden md:flex space-x-8">
-              <Link href="/" className="text-slate-700 hover:text-orange-600 font-medium">Home</Link>
-              <Link href="/coaching" className="text-slate-700 hover:text-orange-600 font-medium">Executive Coaching</Link>
-              <Link href="/training" className="text-orange-600 font-medium">Leadership Training</Link>
-              <Link href="/programs" className="text-slate-700 hover:text-orange-600 font-medium">Programs</Link>
-              <Link href="/contact" className="bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-colors">Contact</Link>
-            </div>
-          </div>
-        </div>
-      </nav>
-
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-slate-50">
       {/* Hero Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl font-bold text-slate-900 mb-6">
-            Leadership Training
+          <h1 className="text-5xl font-bold mb-6">
+            Leadership Development for SMBs
           </h1>
-          <p className="text-xl text-slate-600 mb-8">
-            Comprehensive training programs designed to develop strong, effective leaders 
-            at every organizational level.
+          <p className="text-xl mb-8 opacity-90">
+            Practical, skills-based training that builds leadership capability at every level 
+            of your organization.
           </p>
+          <Link 
+            href="/contact" 
+            className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+          >
+            Explore Our Programs
+          </Link>
         </div>
       </section>
 
@@ -38,14 +26,14 @@ export default function Training() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Training Programs</h2>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Proven methodologies and practical tools to build exceptional leadership capabilities
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Proven Training Solutions</h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              Practical, results-focused training that delivers measurable business impact
             </p>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-xl">
+            <div className="bg-blue-50 p-8 rounded-xl border border-blue-100">
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Emerging Leaders Program</h3>
               <p className="text-slate-600 mb-6">
                 A comprehensive 6-month program designed for high-potential employees transitioning 
@@ -53,25 +41,25 @@ export default function Training() {
               </p>
               <ul className="space-y-3 text-slate-600 mb-6">
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Leadership fundamentals and self-awareness</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Communication and influence skills</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Team building and collaboration</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span>Performance management essentials</span>
@@ -79,7 +67,7 @@ export default function Training() {
               </ul>
               <div className="flex items-center justify-between">
                 <span className="text-sm text-slate-500">6 months • 12 sessions</span>
-                <Link href="/contact" className="text-orange-600 font-semibold hover:text-orange-700">
+                <Link href="/contact" className="text-blue-600 font-semibold hover:text-blue-700">
                   Learn More →
                 </Link>
               </div>
@@ -196,7 +184,7 @@ export default function Training() {
               <div className="space-y-4">
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <span className="text-orange-600 font-semibold text-sm">1</span>
+                    <span className="text-blue-600 font-semibold text-sm">1</span>
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900 mb-1">Interactive Learning</h4>
@@ -205,7 +193,7 @@ export default function Training() {
                 </div>
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <span className="text-orange-600 font-semibold text-sm">2</span>
+                    <span className="text-blue-600 font-semibold text-sm">2</span>
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900 mb-1">Peer Learning</h4>
@@ -214,7 +202,7 @@ export default function Training() {
                 </div>
                 <div className="flex items-start">
                   <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <span className="text-orange-600 font-semibold text-sm">3</span>
+                    <span className="text-blue-600 font-semibold text-sm">3</span>
                   </div>
                   <div>
                     <h4 className="font-semibold text-slate-900 mb-1">Action Planning</h4>
@@ -223,16 +211,16 @@ export default function Training() {
                 </div>
               </div>
             </div>
-            <div className="bg-gradient-to-br from-orange-50 to-amber-100 p-8 rounded-xl">
+            <div className="bg-blue-50 p-8 rounded-xl border border-blue-100">
               <h3 className="text-2xl font-bold text-slate-900 mb-6">Training Outcomes</h3>
               <div className="space-y-4">
                 <div className="bg-white p-4 rounded-lg">
                   <div className="flex items-center justify-between mb-2">
                     <span className="font-medium text-slate-900">Leadership Confidence</span>
-                    <span className="text-orange-600 font-semibold">+85%</span>
+                    <span className="text-blue-600 font-semibold">+85%</span>
                   </div>
                   <div className="w-full bg-slate-200 rounded-full h-2">
-                    <div className="bg-orange-600 h-2 rounded-full" style={{width: '85%'}}></div>
+                    <div className="bg-blue-600 h-2 rounded-full" style={{width: '85%'}}></div>
                   </div>
                 </div>
                 <div className="bg-white p-4 rounded-lg">
@@ -260,54 +248,20 @@ export default function Training() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-orange-600">
+      <section className="py-16 bg-blue-700">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-white mb-4">
             Invest in Your Leadership Development
           </h2>
-          <p className="text-xl text-orange-100 mb-8">
+          <p className="text-xl text-blue-100 mb-8">
             Join our next training cohort and accelerate your leadership journey with 
             proven methodologies and expert guidance.
           </p>
-          <Link href="/contact" className="bg-white text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-50 transition-colors">
+          <Link href="/contact" className="bg-white text-blue-700 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-colors">
             Explore Training Options
           </Link>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-slate-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div className="col-span-2">
-              <h4 className="text-2xl font-bold mb-4">Change By Design</h4>
-              <p className="text-slate-300 mb-4">
-                Transforming organizations through innovative leadership development, strategic change management, 
-                and custom-designed solutions that drive sustainable growth.
-              </p>
-            </div>
-            <div>
-              <h5 className="font-semibold mb-4">Services</h5>
-              <ul className="space-y-2 text-slate-300">
-                <li><Link href="/coaching" className="hover:text-white">Executive Coaching</Link></li>
-                <li><Link href="/training" className="hover:text-white">Leadership Training</Link></li>
-                <li><Link href="/programs" className="hover:text-white">Custom Programs</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h5 className="font-semibold mb-4">Contact</h5>
-              <ul className="space-y-2 text-slate-300">
-                <li>info@changebydesign.com</li>
-                <li>(555) 123-4567</li>
-                <li><Link href="/contact" className="hover:text-white">Get in Touch</Link></li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-slate-700 mt-8 pt-8 text-center text-slate-400">
-            <p>&copy; 2024 Executive Excellence. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
