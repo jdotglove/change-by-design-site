@@ -14,9 +14,9 @@ export default function Navigation() {
     <nav className="bg-white shadow-sm border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6">
-          <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-slate-900">Change By Design</Link>
-          </div>
+          <Link href="/" className="flex items-center">
+            <img src="/ChangeByDesignLogo.png" alt="Change By Design Logo" className="w-48 mb-4" />
+          </Link>
           <div className="hidden md:flex space-x-8">
             <Link href="/" className={`${isActive('/')} font-medium`}>Home</Link>
             <Link href="/about" className={`${isActive('/about')} font-medium`}>About</Link>
