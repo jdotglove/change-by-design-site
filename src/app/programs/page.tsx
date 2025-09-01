@@ -28,7 +28,7 @@ export default function Programs() {
             Transform Your Culture into Your Competitive Advantage
           </h1>
           <p className="text-xl mb-8 opacity-90">
-            Your SMB isn't just losing people, you're missing the performance potential that comes from
+            Your SMB isn&apos;t just losing people, you&apos;re missing the performance potential that comes from
             engaged, systematically developed teams. While turnover costs $75K-$150K per employee
             (SHRM), the real opportunity lies in building cultures where satisfaction increases 95%,
             efficiency improves 75%, and teams consistently deliver high performance.
@@ -59,14 +59,14 @@ export default function Programs() {
               Real-Time Assessment → Systematic Implementation → Measurable Results
             </h2>
             <p className="text-xl text-slate-600 max-w-5xl mx-auto">
-              We don't study your problems—we solve them while you keep running your business. Our
+              We don&apos;t study your problems—we solve them while you keep running your business. Our
               systematic approach delivers measurable improvements through proven frameworks, not quick
               fixes.
             </p>
           </div>
           
           <div className="text-center mb-16">
-            <h3 className="text-2xl font-bold text-blue-700 mb-6">The SG Method: 4 C's That Drive Results</h3>
+            <h3 className="text-2xl font-bold text-blue-700 mb-6">The SG Method: 4 C&apos;s That Drive Results</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="bg-blue-50 p-6 rounded-lg">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -84,7 +84,7 @@ export default function Programs() {
                 </div>
                 <h4 className="text-lg font-semibold text-slate-900 mb-2">Strategic Implementation</h4>
                 <p className="text-slate-600">
-                  High-impact solutions tailored to your organization's needs
+                  High-impact solutions tailored to your organization&apos;s needs
                 </p>
               </div>
               
@@ -207,7 +207,7 @@ export default function Programs() {
             <div className="bg-blue-50 p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow border-2 border-blue-200">
               <h3 className="text-2xl font-bold text-blue-800 mb-4">Ready to See Similar Results?</h3>
               <p className="text-slate-700 mb-6">
-                Let's discuss how we can help transform your organization's culture and performance.
+                Let&apos;s discuss how we can help transform your organization&apos;s culture and performance.
               </p>
               <Link 
                 href="/contact" 
@@ -355,8 +355,8 @@ export default function Programs() {
                 </div>
               </div>
               <blockquote className="text-slate-700 mb-6 italic">
-                &quot;The culture transformation program revolutionized how we approach innovation. 
-                Our time-to-market improved by 60% and employee satisfaction reached an all-time high.&quot;
+                &lsquot;The culture transformation program revolutionized how we approach innovation. 
+                Our time-to-market improved by 60% and employee satisfaction reached an all-time high.&rsquot;
               </blockquote>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
@@ -385,8 +385,8 @@ export default function Programs() {
                 </div>
               </div>
               <blockquote className="text-slate-700 mb-6 italic">
-                &quot;Our digital transformation accelerated dramatically with the change leadership program. 
-                We successfully pivoted our entire business model in record time.&quot;
+                &lsquot;Our digital transformation accelerated dramatically with the change leadership program. 
+                We successfully pivoted our entire business model in record time.&rsquot;
               </blockquote>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>

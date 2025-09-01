@@ -28,7 +28,7 @@ export default function Coaching() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">Delivering Measurable Business Impact</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Our coaching isn't just about personal development—it's about driving real business results.
+              Our coaching isn&apos;t just about personal development—it&apos;s about driving real business results.
             </p>
           </div>
           
@@ -51,7 +51,7 @@ export default function Coaching() {
                 Practical, Results-Focused Coaching for SMB Leaders
               </h3>
               <p className="text-lg text-slate-600 mb-6">
-                In today's fast-moving business environment, you need more than just theory—you need 
+                In today&apos;s fast-moving business environment, you need more than just theory—you need 
                 practical strategies that deliver immediate impact. Our coaching is built around 
                 your specific business challenges and opportunities.
               </p>

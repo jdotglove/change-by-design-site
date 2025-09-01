@@ -32,7 +32,7 @@ export default function BrandPositioning() {
           <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
             <h3 className="text-xl font-semibold text-blue-800 mb-4">Unique Value Proposition</h3>
             <p className="text-blue-700 text-lg">
-              "Real-time transformation that works with your existing systems, delivers measurable ROI within 6 months, and requires minimal time investment from leadership."
+              &lsquot;Real-time transformation that works with your existing systems, delivers measurable ROI within 6 months, and requires minimal time investment from leadership.&rsquo;
             </p>
           </div>
         </div>

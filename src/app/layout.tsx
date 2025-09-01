@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,18 +45,18 @@ export default function RootLayout({
               <div>
                 <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
                 <ul className="space-y-2">
-                  <li><a href="/" className="text-slate-400 hover:text-white transition-colors">Home</a></li>
-                  <li><a href="/about" className="text-slate-400 hover:text-white transition-colors">About Us</a></li>
-                  <li><a href="/programs" className="text-slate-400 hover:text-white transition-colors">Programs</a></li>
-                  <li><a href="/contact" className="text-slate-400 hover:text-white transition-colors">Contact</a></li>
+                  <li><Link href="/" className="text-slate-400 hover:text-white transition-colors">Home</Link></li>
+                  <li><Link href="/about" className="text-slate-400 hover:text-white transition-colors">About Us</Link></li>
+                  <li><Link href="/programs" className="text-slate-400 hover:text-white transition-colors">Programs</Link></li>
+                  <li><Link href="/contact" className="text-slate-400 hover:text-white transition-colors">Contact</Link></li>
                 </ul>
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-4">Services</h4>
                 <ul className="space-y-2">
-                  <li><a href="/coaching" className="text-slate-400 hover:text-white transition-colors">Executive Coaching</a></li>
-                  <li><a href="/training" className="text-slate-400 hover:text-white transition-colors">Leadership Training</a></li>
-                  <li><a href="/programs" className="text-slate-400 hover:text-white transition-colors">Transformation Programs</a></li>
+                  <li><Link href="/coaching" className="text-slate-400 hover:text-white transition-colors">Executive Coaching</Link></li>
+                  <li><Link href="/training" className="text-slate-400 hover:text-white transition-colors">Leadership Training</Link></li>
+                  <li><Link href="/programs" className="text-slate-400 hover:text-white transition-colors">Transformation Programs</Link></li>
                 </ul>
               </div>
               <div>

@@ -7,7 +7,7 @@ export default function BrandPromise() {
         <div className="bg-blue-50 p-8 rounded-xl border border-blue-100">
           <h2 className="text-3xl font-bold text-slate-900 mb-6">Our Brand Promise</h2>
           <div className="text-2xl text-blue-700 font-semibold mb-8">
-            "We deliver measurable organizational transformation in 90 days that pays for itself within 6 months—guaranteed."
+            &lsquot;We deliver measurable organizational transformation in 90 days that pays for itself within 6 months—guaranteed.&rsquo;
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 text-left">
