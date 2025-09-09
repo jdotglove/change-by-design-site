@@ -5,138 +5,232 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-5xl font-bold text-slate-900 mb-6">
-            Transform Your Business
-            <span className="text-[#235ba8] block">At SMB Speed & Scale</span>
-          </h2>
-          <p className="text-xl text-slate-600 mb-8 max-w-4xl mx-auto">
-            We help small-to-medium businesses achieve enterprise-level results through practical, 
-            measurable leadership and organizational transformation. No theory—just real solutions 
-            that drive growth and performance.
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-5xl font-bold text-slate-900 mb-6">
+            Change by Design
+            <span className="text-[#235ba8] block text-4xl mt-4 font-normal">Transform Leadership Challenges into Competitive Advantages</span>
+          </h1>
+          <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
+            Enterprise-proven culture transformation and real-time process improvement at the
+            speed of business.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" className="bg-[#235ba8] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#1e4a8c] transition-colors">
-              Get Started
-            </Link>
-            <Link href="#why-choose-us" className="border-2 border-[#235ba8] text-[#235ba8] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-colors">
-              Why Choose Us
-            </Link>
+          <div className="text-slate-500 mb-8">
+            20+ years | Fortune 500 experience | Real-time results
           </div>
+          <Link 
+            href="/contact" 
+            className="bg-[#235ba8] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#1e4a8c] transition-colors inline-block"
+          >
+            Get Your Strategy Session
+          </Link>
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section id="why-choose-us" className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-slate-900 mb-4">Why Partner With Us</h3>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              We deliver real results by focusing on what works in the real world
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
-            {[
-              {
-                title: 'Pragmatic',
-                description: 'Solutions that work in the real world, not just on paper',
-                icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
-              },
-              {
-                title: 'Agile',
-                description: 'Fast, adaptive, and responsive to your changing needs',
-                icon: 'M13 10V3L4 14h7v7l9-11h-7z'
-              },
-              {
-                title: 'Results-Driven',
-                description: 'Everything measured, everything accountable',
-                icon: 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z'
-              },
-              {
-                title: 'Empathetic',
-                description: 'We understand SMB constraints and challenges',
-                icon: 'M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z'
-              },
-              {
-                title: 'Future-Focused',
-                description: 'Building capability for tomorrow\'s challenges',
-                icon: 'M13 10h.01v5.172a2 2 0 01-.586 1.414l-4.828 4.828a2 2 0 01-2.564.25l-3.5-2.5a2 2 0 01-.64-2.38l1.37-3.37A2 2 0 014.5 10h5.5z M12 6a2 2 0 100-4 2 2 0 000 4z'
-              }
-            ].map((item, index) => (
-              <div key={index} className="text-center p-6 rounded-xl bg-slate-50 hover:shadow-lg transition-shadow">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-6 h-6 text-[#235ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={item.icon} />
-                  </svg>
-                </div>
-                <h4 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h4>
-                <p className="text-sm text-slate-600">{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Services Section */}
-      <section className="py-16 bg-slate-50">
+      {/* Systematic Approach Section */}
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h3 className="text-3xl font-bold text-slate-900 mb-4">Proven Solutions for SMB Growth</h3>
-            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              We deliver enterprise-level transformation at SMB speed and scale. 
-              Every solution is designed to deliver measurable ROI and sustainable results.
+            <h2 className="text-3xl font-bold text-black mb-4">Our Systematic Approach Delivers Real-World Solutions</h2>
+            <p className="text-xl text-black max-w-4xl mx-auto">
+              The 4 C's Framework That Creates Practical Impact
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-8 rounded-xl bg-slate-50 hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-[#235ba8]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {/* Clarity */}
+            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl border border-blue-100">
+              <div className="flex items-center mb-4">
+                <div className="bg-blue-100 text-blue-800 rounded-full w-10 h-10 flex items-center justify-center text-xl font-bold mr-4">1</div>
+                <h3 className="text-xl font-bold text-black">Clarity</h3>
               </div>
-              <h4 className="text-xl font-semibold text-slate-900 mb-4">Executive Coaching</h4>
-              <p className="text-slate-600 mb-6">
-                Practical, results-focused coaching that helps leaders navigate challenges, make better decisions, 
-                and drive measurable business outcomes.
-              </p>
-              <Link href="/coaching" className="text-[#235ba8] font-semibold hover:text-[#1e4a8c]">
-                Learn More →
-              </Link>
+              <p className="text-black mb-4 font-medium">Turn confusion into clear action</p>
+              <ul className="space-y-3">
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Start with the Saville Assessment Wave platform to identify leadership strengths and development priorities</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Map current processes in real-time to eliminate bottlenecks while you work</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Reduce operational confusion by 40% through systematic processes</span>
+                </li>
+              </ul>
             </div>
-            
-            <div className="text-center p-8 rounded-xl bg-slate-50 hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-[#62a044]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
+
+            {/* Culture */}
+            <div className="bg-gradient-to-br from-green-50 to-white p-8 rounded-xl border border-green-100">
+              <div className="flex items-center mb-4">
+                <div className="bg-green-100 text-green-800 rounded-full w-10 h-10 flex items-center justify-center text-xl font-bold mr-4">2</div>
+                <h3 className="text-xl font-bold text-black">Culture</h3>
               </div>
-              <h4 className="text-xl font-semibold text-slate-900 mb-4">Leadership Development</h4>
-              <p className="text-slate-600 mb-6">
-                Customized training that builds leadership capability at every level, with a focus on practical skills 
-                that drive immediate impact.
-              </p>
-              <Link href="/training" className="text-[#62a044] font-semibold hover:text-[#4d7f37]">
-                Learn More →
-              </Link>
+              <p className="text-black mb-4 font-medium">Transform people challenges into retention advantages</p>
+              <ul className="space-y-3">
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Design feedback systems that prevent talent flight</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Build trust-based cultures that outcompete salary increases</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-green-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Implement real-time process improvements that reduce employee frustration</span>
+                </li>
+              </ul>
             </div>
-            
-            <div className="text-center p-8 rounded-xl bg-slate-50 hover:shadow-lg transition-shadow">
-              <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-[#615d59]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
+
+            {/* Capability */}
+            <div className="bg-gradient-to-br from-amber-50 to-white p-8 rounded-xl border border-amber-100">
+              <div className="flex items-center mb-4">
+                <div className="bg-amber-100 text-amber-800 rounded-full w-10 h-10 flex items-center justify-center text-xl font-bold mr-4">3</div>
+                <h3 className="text-xl font-bold text-black">Capability</h3>
               </div>
-              <h4 className="text-xl font-semibold text-slate-900 mb-4">Organizational Transformation</h4>
-              <p className="text-slate-600 mb-6">
-                End-to-end solutions that align leadership, culture, and systems to drive sustainable 
-                business performance and growth.
-              </p>
-              <Link href="/programs" className="text-[#615d59] font-semibold hover:text-[#4a4743]">
-                Learn More →
-              </Link>
+              <p className="text-black mb-4 font-medium">Develop skills that drive revenue</p>
+              <ul className="space-y-3">
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-amber-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Target training at process pain points that directly impact your bottom line using scientific assessment data</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-amber-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Optimize workflows while building internal expertise instead of expensive external hires</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-amber-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Apply Lean methodologies for continuous process enhancement</span>
+                </li>
+              </ul>
             </div>
+
+            {/* Continuity */}
+            <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl border border-purple-100">
+              <div className="flex items-center mb-4">
+                <div className="bg-purple-100 text-purple-800 rounded-full w-10 h-10 flex items-center justify-center text-xl font-bold mr-4">4</div>
+                <h3 className="text-xl font-bold text-black">Continuity</h3>
+              </div>
+              <p className="text-black mb-4 font-medium">Make improvements stick and evolve</p>
+              <ul className="space-y-3">
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-purple-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Replace rigid SOPs with adaptive playbooks informed by ongoing talent analytics and process optimization</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-purple-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Embed systems that scale with rapid growth through real-time monitoring</span>
+                </li>
+                <li className="flex items-start">
+                  <svg className="h-5 w-5 text-purple-600 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span className="text-black">Build capabilities that become competitive moats</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Problem Section */}
+      <section className="py-16 bg-gradient-to-r from-blue-50 to-green-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h3 className="text-3xl font-bold text-slate-900 mb-8">The Problem Most Leaders Face</h3>
+          <div className="bg-white p-8 rounded-xl shadow-lg max-w-3xl mx-auto">
+            <p className="text-lg text-slate-700 mb-6">
+              Your organization isn't just losing people, you're missing the performance potential of
+              engaged, systematically developed teams.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8 mt-10">
+              <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-500">
+                <h4 className="text-xl font-semibold text-red-700 mb-3">The Cost</h4>
+                <p className="text-2xl font-bold text-slate-800">$75K-$150K</p>
+                <p className="text-sm text-slate-600 mt-1">per departing employee</p>
+              </div>
+              <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
+                <h4 className="text-xl font-semibold text-green-700 mb-3">The Opportunity</h4>
+                <ul className="text-left space-y-2 text-slate-700">
+                  <li className="flex items-start">
+                    <svg className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>95% satisfaction increases</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>75% efficiency gains</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="h-5 w-5 text-green-500 mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>Sustainable high performance</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p className="text-xl font-semibold text-slate-800 mt-10 italic">
+              What if high performance became your standard operating procedure?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Proven Results Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-bold text-slate-900 mb-4">Our Proven Results</h3>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              Real impact delivered across industries and organization sizes
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            {[
+              { text: '95% employee satisfaction increase', subtext: '(8,500-employee Fortune 500)' },
+              { text: '88% operational performance boost', subtext: '(72 countries)' },
+              { text: '75% efficiency improvement', subtext: '(multi-location retail)' },
+              { text: '40% confusion reduction', subtext: 'through systematic processes' },
+              { text: '33% turnover reduction', subtext: '(700-person global chain)' },
+              { text: 'Break-even in 6 months', subtext: 'through retention savings' }
+            ].map((item, index) => (
+              <div key={index} className="flex items-start p-4 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors">
+                <svg className="h-6 w-6 text-green-500 mt-0.5 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <div>
+                  <p className="font-medium text-slate-900">{item.text}</p>
+                  <p className="text-sm text-slate-500">{item.subtext}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

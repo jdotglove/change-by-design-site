@@ -1,9 +1,7 @@
 import Link from "next/link";
-import BrandFoundation from "@/app/about/components/BrandFoundation";
 import SgMethod from "@/app/about/components/SgMethod";
-import BrandPromise from "@/app/about/components/BrandPromise";
-import BrandPositioning from "@/app/about/components/BrandPositioning";
-import BrandPersonality from "@/app/about/components/BrandPersonality";
+import MeetSharon from "@/app/about/components/MeetSharon";
+import PerfectFor from "@/app/about/components/PerfectFor";
 
 export default function About() {
   return (
@@ -18,11 +16,9 @@ export default function About() {
         </div>
       </section>
 
-      <BrandFoundation />
+      <MeetSharon />
       <SgMethod />
-      <BrandPromise />
-      <BrandPositioning />
-      <BrandPersonality />
+      <PerfectFor />
 
       {/* CTA Section */}
       <section className="py-16 bg-blue-700 text-white">

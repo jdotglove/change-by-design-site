@@ -19,11 +19,10 @@ export default function Navigation() {
           </Link>
           <div className="hidden md:flex space-x-8">
             <Link href="/" className={`${isActive('/')} font-medium`}>Home</Link>
+            <Link href="/services" className={`${isActive('/services')} font-medium`}>Services</Link>
             <Link href="/about" className={`${isActive('/about')} font-medium`}>About</Link>
-            <Link href="/coaching" className={`${isActive('/coaching')} font-medium`}>Executive Coaching</Link>
-            <Link href="/training" className={`${isActive('/training')} font-medium`}>Leadership Training</Link>
-            <Link href="/programs" className={`${isActive('/programs')} font-medium`}>Programs</Link>
-            <Link href="/contact" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">Contact</Link>
+            <Link href="/assessments" className={`${isActive('/assessments')} font-medium`}>Assessments</Link>
+            <Link href="/contact" className={`${isActive('/contact')} font-medium`}>Contact</Link>
           </div>
         </div>
       </div>
