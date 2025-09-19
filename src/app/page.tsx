@@ -32,7 +32,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-black mb-4">Our Systematic Approach Delivers Real-World Solutions</h2>
             <p className="text-xl text-black max-w-4xl mx-auto">
-              The 4 C's Framework That Creates Practical Impact
+              The 4 C&apos;s Framework That Creates Practical Impact
             </p>
           </div>
           
@@ -162,7 +162,7 @@ export default function Home() {
           <h3 className="text-3xl font-bold text-slate-900 mb-8">The Problem Most Leaders Face</h3>
           <div className="bg-white p-8 rounded-xl shadow-lg max-w-3xl mx-auto">
             <p className="text-lg text-slate-700 mb-6">
-              Your organization isn't just losing people, you're missing the performance potential of
+              Your organization isn&apos;t just losing people, you&apos;re missing the performance potential of
               engaged, systematically developed teams.
             </p>
             <div className="grid md:grid-cols-2 gap-8 mt-10">
