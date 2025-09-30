@@ -11,7 +11,7 @@ export default function Assessments() {
             Data-Driven Transformation That Works
           </h1>
           <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
-            Start your transformation with the world's most predictive workplace assessment. Our integrated Saville Assessment platform provides instant insights into leadership potential, team dynamics, and development priorities, the foundation for all our transformation work.
+            Start your transformation with the world&apos;s most predictive workplace assessment. Our integrated Saville Assessment platform provides instant insights into leadership potential, team dynamics, and development priorities, the foundation for all our transformation work.
           </p>
         </div>
       </section>

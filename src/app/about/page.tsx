@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Button from "@/components/Button";
 import MeetSharon from "@/app/about/components/MeetSharon";
 import SgMethod from "@/app/about/components/SgMethod";
