@@ -1,265 +1,134 @@
-import Link from "next/link";
+import Button from "@/components/Button";
+import { ShieldCheckIcon, BoltIcon, AcademicCapIcon, ChartPieIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 
-export default function Training() {
+export default function Assessments() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-slate-50">
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Leadership Development for SMBs
+            Data-Driven Transformation That Works
           </h1>
-          <p className="text-xl mb-8 opacity-90">
-            Practical, skills-based training that builds leadership capability at every level 
-            of your organization.
+          <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
+            Start your transformation with the world's most predictive workplace assessment. Our integrated Saville Assessment platform provides instant insights into leadership potential, team dynamics, and development priorities, the foundation for all our transformation work.
           </p>
-          <Link 
-            href="/contact" 
-            className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-          >
-            Explore Our Programs
-          </Link>
         </div>
       </section>
 
-      {/* Training Programs */}
+      {/* Why Saville Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Proven Training Solutions</h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Practical, results-focused training that delivers measurable business impact
-            </p>
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Saville Assessment Powers Our Approach</h2>
           </div>
-          
-          <div className="grid lg:grid-cols-2 gap-8">
-            <div className="bg-blue-50 p-8 rounded-xl border border-blue-100">
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">Emerging Leaders Program</h3>
-              <p className="text-slate-600 mb-6">
-                A comprehensive 6-month program designed for high-potential employees transitioning 
-                into leadership roles.
-              </p>
-              <ul className="space-y-3 text-slate-600 mb-6">
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Leadership fundamentals and self-awareness</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Communication and influence skills</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Team building and collaboration</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-blue-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Performance management essentials</span>
-                </li>
-              </ul>
-              <div className="flex items-center justify-between">
-                <span className="text-sm text-slate-500">6 months • 12 sessions</span>
-                <Link href="/contact" className="text-blue-600 font-semibold hover:text-blue-700">
-                  Learn More →
-                </Link>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center p-6 bg-slate-50 rounded-xl">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                  <AcademicCapIcon className="w-8 h-8 text-blue-600" />
+                </div>
               </div>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">🎯 Scientific Foundation</h3>
+              <p className="text-slate-600">Built on 15+ years of big data and global research, Wave questionnaires put the strongest predictor of workplace performance and potential in your hands.</p>
             </div>
-
-            <div className="bg-gradient-to-br from-amber-50 to-yellow-50 p-8 rounded-xl">
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">Advanced Leadership Mastery</h3>
-              <p className="text-slate-600 mb-6">
-                An intensive program for experienced leaders looking to elevate their strategic 
-                impact and organizational influence.
-              </p>
-              <ul className="space-y-3 text-slate-600 mb-6">
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-amber-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Strategic thinking and vision development</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-amber-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Change leadership and transformation</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-amber-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Executive presence and influence</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-amber-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span>Building high-performance cultures</span>
-                </li>
-              </ul>
-              <div className="flex items-center justify-between">
-                <span className="text-sm text-slate-500">4 months • 8 intensive sessions</span>
-                <Link href="/contact" className="text-amber-600 font-semibold hover:text-amber-700">
-                  Learn More →
-                </Link>
+            <div className="text-center p-6 bg-slate-50 rounded-xl">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                  <BoltIcon className="w-8 h-8 text-blue-600" />
+                </div>
               </div>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">⚡ Instant Insights</h3>
+              <p className="text-slate-600">Dynamic, on-demand dashboards provide immediate clarity on leadership strengths, development priorities, and team compatibility.</p>
+            </div>
+            <div className="text-center p-6 bg-slate-50 rounded-xl">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                  <ShieldCheckIcon className="w-8 h-8 text-blue-600" />
+                </div>
+              </div>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">🔬 Proven Accuracy</h3>
+              <p className="text-slate-600">Reduces bad hires from 1 in 5 to 1 in 50 with scientifically valid people data across the entire employee journey.</p>
+            </div>
+            <div className="text-center p-6 bg-slate-50 rounded-xl">
+              <div className="flex justify-center mb-4">
+                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                  <ChartPieIcon className="w-8 h-8 text-blue-600" />
+                </div>
+              </div>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">📈 Measurable Impact</h3>
+              <p className="text-slate-600">Organizations using Saville Assessment report significant improvements in hiring accuracy, leadership development effectiveness, and employee engagement.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Workshop Options */}
+      {/* Assessment Options Section */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Workshop Series</h2>
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Focused, interactive workshops targeting specific leadership competencies
-            </p>
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Assessment Options</h2>
           </div>
-          
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">Crucial Conversations</h3>
-              <p className="text-slate-600 mb-4">
-                Master the art of difficult conversations and conflict resolution in leadership contexts.
-              </p>
-              <div className="text-sm text-slate-500">Half-day workshop</div>
+            <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-500">
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">Individual Leadership Assessment</h3>
+              <p className="text-slate-600 mb-6">Comprehensive profiling for executives and emerging leaders.</p>
+              <ul className="space-y-3 text-slate-600">
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Detailed personality and aptitude analysis</span></li>
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Leadership potential identification</span></li>
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Personalized development recommendations</span></li>
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Integration with coaching and development programs</span></li>
+              </ul>
             </div>
-
-            <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">Leading Through Change</h3>
-              <p className="text-slate-600 mb-4">
-                Develop skills to navigate and lead organizational transformation effectively.
-              </p>
-              <div className="text-sm text-slate-500">Full-day workshop</div>
+            <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-500">
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">Team Assessment</h3>
+              <p className="text-slate-600 mb-6">Complete team dynamics and compatibility analysis.</p>
+              <ul className="space-y-3 text-slate-600">
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Individual profiles for all team members</span></li>
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Team interaction patterns and potential conflicts</span></li>
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Collaboration optimization strategies</span></li>
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Culture health indicators</span></li>
+              </ul>
             </div>
-
-            <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">Building High-Performance Teams</h3>
-              <p className="text-slate-600 mb-4">
-                Learn strategies to create, motivate, and sustain exceptional team performance.
-              </p>
-              <div className="text-sm text-slate-500">Full-day workshop</div>
+            <div className="bg-white p-8 rounded-xl shadow-lg border-t-4 border-blue-500">
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">Organizational Assessment</h3>
+              <p className="text-slate-600 mb-6">Enterprise-wide talent analytics and insights.</p>
+              <ul className="space-y-3 text-slate-600">
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Leadership pipeline analysis</span></li>
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Culture alignment measurement</span></li>
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Succession planning data</span></li>
+                <li className="flex items-start"><CheckCircleIcon className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" /><span>Retention risk identification</span></li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Training Approach */}
+      {/* Get Started Section */}
       <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">
-                Evidence-Based Training Methodology
-              </h2>
-              <p className="text-lg text-slate-600 mb-6">
-                Our training programs are built on proven leadership research and real-world 
-                application, ensuring practical and lasting impact.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-start">
-                  <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <span className="text-blue-600 font-semibold text-sm">1</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 mb-1">Interactive Learning</h4>
-                    <p className="text-slate-600">Engaging workshops with hands-on exercises and real-world scenarios</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <span className="text-blue-600 font-semibold text-sm">2</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 mb-1">Peer Learning</h4>
-                    <p className="text-slate-600">Collaborative environment fostering shared experiences and insights</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <span className="text-blue-600 font-semibold text-sm">3</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 mb-1">Action Planning</h4>
-                    <p className="text-slate-600">Concrete takeaways and implementation strategies for immediate application</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="bg-blue-50 p-8 rounded-xl border border-blue-100">
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">Training Outcomes</h3>
-              <div className="space-y-4">
-                <div className="bg-white p-4 rounded-lg">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="font-medium text-slate-900">Leadership Confidence</span>
-                    <span className="text-blue-600 font-semibold">+85%</span>
-                  </div>
-                  <div className="w-full bg-slate-200 rounded-full h-2">
-                    <div className="bg-blue-600 h-2 rounded-full" style={{width: '85%'}}></div>
-                  </div>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="font-medium text-slate-900">Team Engagement</span>
-                    <span className="text-amber-600 font-semibold">+78%</span>
-                  </div>
-                  <div className="w-full bg-slate-200 rounded-full h-2">
-                    <div className="bg-amber-600 h-2 rounded-full" style={{width: '78%'}}></div>
-                  </div>
-                </div>
-                <div className="bg-white p-4 rounded-lg">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="font-medium text-slate-900">Strategic Impact</span>
-                    <span className="text-red-600 font-semibold">+92%</span>
-                  </div>
-                  <div className="w-full bg-slate-200 rounded-full h-2">
-                    <div className="bg-red-600 h-2 rounded-full" style={{width: '92%'}}></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-slate-900 mb-4">Get Started</h2>
+          <p className="text-xl text-slate-600 mb-8">Complete Your Assessment</p>
+          <div className="flex justify-center space-x-4">
+            <Button href="/contact" variant="primary"><div className="flex flex-col"><span>Take Individual</span><span>Assessment</span></div></Button>
+            <Button href="/contact" variant="secondary"><div className="flex flex-col"><span>Request Team</span><span>Assessment</span></div></Button>
+            <Button href="/contact" variant="secondary"><div className="flex flex-col"><span>Explore Enterprise</span><span>Options</span></div></Button>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-blue-700">
-        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            Invest in Your Leadership Development
-          </h2>
-          <p className="text-xl text-blue-100 mb-8">
-            Join our next training cohort and accelerate your leadership journey with 
-            proven methodologies and expert guidance.
-          </p>
-          <Link href="/contact" className="bg-white text-blue-700 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-colors">
-            Explore Training Options
-          </Link>
+      {/* Social Proof Section */}
+      <section className="py-12 bg-blue-700 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h3 className="text-2xl font-semibold mb-4">Trusted by Global Organizations</h3>
+            <p className="text-blue-200 mb-6">99.96% platform uptime • 15+ years of research • Used by Fortune 500 companies worldwide</p>
+            <div className="flex justify-center space-x-6">
+              <a href="#" className="text-white hover:text-blue-200 font-semibold">[View Leadership Report]</a>
+              <a href="#" className="text-white hover:text-blue-200 font-semibold">[See Team Dynamics]</a>
+              <a href="#" className="text-white hover:text-blue-200 font-semibold">[Explore Development Guide]</a>
+            </div>
+          </div>
         </div>
       </section>
     </div>

@@ -27,7 +27,7 @@ export default function Button({
 
   return (
     <Link href={href} className={`${baseClasses} ${variantClasses[variant]} ${className}`}>
-      <span>{children}</span>
+      {children}
       {showIcon && <ArrowRightIcon className={iconClasses} />}
     </Link>
   );
