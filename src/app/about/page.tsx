@@ -1,6 +1,7 @@
 import Link from "next/link";
-import SgMethod from "@/app/about/components/SgMethod";
+import Button from "@/components/Button";
 import MeetSharon from "@/app/about/components/MeetSharon";
+import SgMethod from "@/app/about/components/SgMethod";
 import PerfectFor from "@/app/about/components/PerfectFor";
 
 export default function About() {
@@ -27,12 +28,9 @@ export default function About() {
           <p className="text-xl mb-8 max-w-2xl mx-auto text-blue-100">
             Experience the power of real-time transformation that delivers measurable results
           </p>
-          <Link 
-            href="/contact" 
-            className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-          >
+          <Button href="/contact" variant="secondary">
             Get Started Today
-          </Link>
+          </Button>
         </div>
       </section>
     </>

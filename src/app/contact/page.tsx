@@ -5,11 +5,11 @@ export default function Contact() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold text-slate-900 mb-6">
-            Let&apos;s Design Change Together
+            We move at the speed of business.
           </h1>
           <p className="text-xl text-slate-600 mb-8">
-            Ready to transform your organization? Start the conversation and discover 
-            how we can co-create solutions tailored to your unique challenges.
+            Every transformation starts with understanding where you are and mapping where you need to go.
+            Let&apos;s design your path to exceptional leadership and sustainable business results. 
           </p>
         </div>
       </section>
@@ -20,10 +20,9 @@ export default function Contact() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">Get Started</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">Get Your Custom Strategy Session</h2>
               <p className="text-lg text-slate-600 mb-8">
-                Tell us about your transformation goals and we&apos;ll design a conversation 
-                that explores the possibilities.
+                No generic solutions.  No theoretical frameworks. Just systematic strategies that work. 
               </p>
               
               <form className="space-y-6">
@@ -36,7 +35,7 @@ export default function Contact() {
                       type="text"
                       id="firstName"
                       name="firstName"
-                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      className="text-black w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Your first name"
                     />
                   </div>
@@ -48,7 +47,7 @@ export default function Contact() {
                       type="text"
                       id="lastName"
                       name="lastName"
-                      className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      className="text-black w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       placeholder="Your last name"
                     />
                   </div>
@@ -62,7 +61,7 @@ export default function Contact() {
                     type="email"
                     id="email"
                     name="email"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="text-black w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="your.email@company.com"
                   />
                 </div>
@@ -75,7 +74,7 @@ export default function Contact() {
                     type="text"
                     id="company"
                     name="company"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="text-black w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="Your organization"
                   />
                 </div>
@@ -87,7 +86,7 @@ export default function Contact() {
                   <select
                     id="role"
                     name="role"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="text-black w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                   >
                     <option value="">Select your role</option>
                     <option value="ceo">CEO/President</option>
@@ -108,7 +107,7 @@ export default function Contact() {
                   <select
                     id="interest"
                     name="interest"
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="text-black w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                   >
                     <option value="">What interests you most?</option>
                     <option value="coaching">Executive Coaching</option>
@@ -128,14 +127,14 @@ export default function Contact() {
                     id="message"
                     name="message"
                     rows={4}
-                    className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    className="text-black w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="What transformation challenge are you facing? What would success look like?"
                   ></textarea>
                 </div>
                 
                 <button
                   type="submit"
-                  className="w-full bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+                  className="w-full cursor-pointer bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl"
                 >
                   Start the Conversation
                 </button>
@@ -181,8 +180,15 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-slate-900 mb-2">Schedule a Call</h3>
-                    <p className="text-slate-600 mb-2">Book a 30-minute discovery session</p>
-                    <p className="text-sm text-slate-500">Free consultation to explore your needs</p>
+                    <p className="text-slate-600 mb-2">
+                      [Book Strategy Session] - 60-minute consultation
+                    </p>
+                    <p className="text-slate-600 mb-2">
+                      [Quick Discovery Call] - 15-minute introduction 
+                    </p>
+                    <p className="text-slate-600 mb-2">
+                      [Request Proposal] - Custom solution design
+                    </p>
                   </div>
                 </div>
               </div>
@@ -194,25 +200,31 @@ export default function Contact() {
                     <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Initial consultation within 48 hours</span>
+                    <span>Comprehensive discussion of your leadership challenges</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Customized proposal based on your needs</span>
+                    <span>Assessment of your current culture, health, and operational efficiency</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Co-designed solution that fits your culture</span>
+                    <span>Introduction to our 4 C&apos;s framework and how it applies to your situation</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Ongoing partnership for sustainable change</span>
+                    <span>Customized recommendations for your transformation journey</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>Clear next steps and investment options </span>
                   </li>
                 </ul>
               </div>
