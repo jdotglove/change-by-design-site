@@ -212,7 +212,7 @@ export default function Contact() {
                     <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Introduction to Change by Design's 4 C&apos;s framework and how it applies to your situation</span>
+                    <span>Introduction to Change by Design&aspos;s 4 C&apos;s framework and how it applies to your situation</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

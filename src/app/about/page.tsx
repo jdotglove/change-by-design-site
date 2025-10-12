@@ -25,7 +25,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Business?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto text-blue-100">
-            Experience the power of Change by Design's real-time transformation that delivers measurable results
+            Experience the power of Change by Design&apos;s real-time transformation that delivers measurable results
           </p>
           <Button href="/contact" variant="secondary">
             Get Started Today

@@ -1,5 +1,5 @@
 "use client";
-import { EyeIcon, UserGroupIcon, AcademicCapIcon, ArrowPathIcon, CheckIcon } from "@heroicons/react/24/outline";
+import { CheckIcon } from "@heroicons/react/24/outline";
 import Button from '@/components/Button';
 import { useState, useEffect } from 'react';
 

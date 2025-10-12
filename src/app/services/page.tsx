@@ -27,7 +27,7 @@ export default function Services() {
               Our Transformation Services
             </h2>
             <p className="text-xl text-black max-w-4xl mx-auto">
-              Change by Design's comprehensive solutions designed to turn your leadership
+              Change by Design&apos;s comprehensive solutions designed to turn your leadership
               challenges into competitive advantages
             </p>
           </div>
@@ -479,7 +479,7 @@ export default function Services() {
           <div className="mt-16 text-center">
             <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-xl border border-blue-200 max-w-4xl mx-auto">
               <p className="text-lg text-slate-700 font-medium">
-                Built on Saville Assessment's award-winning Wave platform—the strongest predictor of workplace performance and potential
+                Built on Saville Assessment&apos;s award-winning Wave platform—the strongest predictor of workplace performance and potential
               </p>
             </div>
           </div>
@@ -493,7 +493,7 @@ export default function Services() {
             Ready to Transform Your Organization?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Schedule a complimentary discovery session to explore how Change by Design's
+            Schedule a complimentary discovery session to explore how Change by Design&aspos;s
             services can accelerate your transformation journey.
           </p>
           <Button href="/contact" variant="secondary">

@@ -1,5 +1,11 @@
 import Button from "@/components/Button";
-import { ShieldCheckIcon, BoltIcon, BeakerIcon, ArrowTrendingUpIcon, CheckCircleIcon, AcademicCapIcon } from '@heroicons/react/24/outline';
+import { 
+  BoltIcon, 
+  BeakerIcon, 
+  ArrowTrendingUpIcon, 
+  CheckCircleIcon, 
+  AcademicCapIcon,
+} from '@heroicons/react/24/outline';
 
 export default function Assessments() {
   return (
