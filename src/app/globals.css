@@ -20,8 +20,23 @@
 }
 
 @font-face {
-  font-family: 'Zrnic';
-  src: url('../../public/zrnic.otf') format('opentype');
+  font-family: 'Inter';
+  src: url('../../public/fonts/Inter/static/Inter_18pt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'InterMedium';
+  src: url('../../public/fonts/Inter/static/Inter_18pt-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('../../public/fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url('../../public/fonts/Montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
 }
 
 body {
@@ -29,3 +44,8 @@ body {
   color: var(--foreground);
   font-family: 'Zrnic';
 }
+
+h1, h2, h3 {
+  font-family: 'MontserratBold';
+}
+

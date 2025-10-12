@@ -25,7 +25,7 @@ export default function MeetSharon() {
             </div>
           </div>
           <div className="mt-10 lg:mt-0 lg:col-span-7">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Meet Sharon Glover</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Meet Sharon Glover, Founder of Change by Design</h2>
             <p className="text-xl text-slate-600 mb-8">
               Transformation strategist who gets results while your business keeps moving
             </p>

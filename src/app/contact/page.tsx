@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-slate-50">
+    <div className="pt-32 min-h-screen bg-gradient-to-br from-blue-50 to-slate-50">
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
@@ -8,7 +8,7 @@ export default function Contact() {
             We move at the speed of business.
           </h1>
           <p className="text-xl text-slate-600 mb-8">
-            Every transformation starts with understanding where you are and mapping where you need to go.
+            Every Change by Design transformation starts with understanding where you are and mapping where you need to go.
             Let&apos;s design your path to exceptional leadership and sustainable business results. 
           </p>
         </div>
@@ -20,7 +20,7 @@ export default function Contact() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">Get Your Custom Strategy Session</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">Get Your Change by Design Custom Strategy Session</h2>
               <p className="text-lg text-slate-600 mb-8">
                 No generic solutions.  No theoretical frameworks. Just systematic strategies that work. 
               </p>
@@ -212,7 +212,7 @@ export default function Contact() {
                     <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Introduction to our 4 C&apos;s framework and how it applies to your situation</span>
+                    <span>Introduction to Change by Design's 4 C&apos;s framework and how it applies to your situation</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-orange-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

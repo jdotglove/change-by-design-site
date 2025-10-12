@@ -2,7 +2,7 @@ import Button from '@/components/Button';
 
 export default function Services() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-slate-50">
+    <div className="pt-20 min-h-screen bg-gradient-to-br from-blue-50 to-slate-50">
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
@@ -10,7 +10,7 @@ export default function Services() {
             Four Ways We Deliver Real-World Solutions
           </h1>
           <p className="text-xl mb-8 opacity-90">
-            Enterprise experience meets practical application. Every solution is
+            Change by Design combines enterprise experience with practical application. Every solution is
             designed for sustainable impact and measurable ROI.
           </p>
           <Button href="/contact" variant="secondary">
@@ -27,7 +27,7 @@ export default function Services() {
               Our Transformation Services
             </h2>
             <p className="text-xl text-black max-w-4xl mx-auto">
-              Comprehensive solutions designed to turn your leadership
+              Change by Design's comprehensive solutions designed to turn your leadership
               challenges into competitive advantages
             </p>
           </div>
@@ -367,18 +367,18 @@ export default function Services() {
               </ul>
             </div>
 
-            {/* Real-Time Process Improvement */}
+            {/* Ways of Working Transformation */}
             <div className="bg-gradient-to-br from-purple-50 to-white p-8 rounded-xl border border-purple-100">
               <div className="flex items-center mb-4">
                 <div className="bg-purple-100 text-purple-800 rounded-full w-10 h-10 flex items-center justify-center text-xl font-bold mr-4">
                   4
                 </div>
                 <h3 className="text-xl font-bold text-black">
-                  Real-Time Process Improvement
+                  Ways of Working Transformation
                 </h3>
               </div>
               <p className="text-black mb-4 font-medium">
-                Optimize operations while you work
+                Redesign how work gets done for immediate impact
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
@@ -396,8 +396,7 @@ export default function Services() {
                     />
                   </svg>
                   <span className="text-black">
-                    Live workflow analysis that identifies bottlenecks without
-                    disrupting business
+                    Eliminate organizational friction that slows performance and frustrates talent
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -415,8 +414,7 @@ export default function Services() {
                     />
                   </svg>
                   <span className="text-black">
-                    Lean methodology implementation for continuous efficiency
-                    gains
+                    Redesign collaboration patterns, decision flows, and work structures in real-time
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -434,8 +432,7 @@ export default function Services() {
                     />
                   </svg>
                   <span className="text-black">
-                    Employee-driven improvement suggestions based on daily
-                    experience
+                    Create operating rhythms that drive both efficiency and engagement
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -453,7 +450,7 @@ export default function Services() {
                     />
                   </svg>
                   <span className="text-black">
-                    Technology integration that streamlines repetitive tasks
+                    Transform systems and processes while building the culture to sustain them
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -471,8 +468,7 @@ export default function Services() {
                     />
                   </svg>
                   <span className="text-black">
-                    Perfect for: Operational efficiency, workflow optimization,
-                    scaling organizations
+                    Perfect for: Operational efficiency, scaling organizations, post-merger integration, remote/hybrid transformation
                   </span>
                 </li>
               </ul>
@@ -482,15 +478,8 @@ export default function Services() {
           {/* Saville Assessment Wave Platform */}
           <div className="mt-16 text-center">
             <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-xl border border-blue-200 max-w-4xl mx-auto">
-              <div className="flex justify-center mb-4">
-                <h3 className="text-xl font-bold text-black">
-                  Our Methodology
-                </h3>
-              </div>
               <p className="text-lg text-slate-700 font-medium">
-                Every solution is powered by Saville Assessment&apos;s
-                award-winning Wave platform—the strongest predictor of workplace
-                performance and potential.
+                Built on Saville Assessment's award-winning Wave platform—the strongest predictor of workplace performance and potential
               </p>
             </div>
           </div>
@@ -504,7 +493,7 @@ export default function Services() {
             Ready to Transform Your Organization?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Schedule a complimentary discovery session to explore how our
+            Schedule a complimentary discovery session to explore how Change by Design's
             services can accelerate your transformation journey.
           </p>
           <Button href="/contact" variant="secondary">
