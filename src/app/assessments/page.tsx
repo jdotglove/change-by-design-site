@@ -17,7 +17,7 @@ export default function Assessments() {
             Data-Driven Transformation That Works
           </h1>
           <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
-            Start your transformation with the world&apos;s most predictive workplace assessment. At Change by Design, our integrated Saville Assessment platform provides instant insights into leadership potential, team dynamics, and development priorities—the foundation for all Change by Design's transformation work.
+            Start your transformation with the world&apos;s most predictive workplace assessment. At Change by Design, our integrated Saville Assessment platform provides instant insights into leadership potential, team dynamics, and development priorities—the foundation for all Change by Design&apos;s transformation work.
           </p>
         </div>
       </section>
@@ -26,7 +26,7 @@ export default function Assessments() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Saville Assessment Powers Change By Design's Approach</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Saville Assessment Powers Change By Design&apos;s Approach</h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center p-6 bg-slate-50 rounded-xl">
