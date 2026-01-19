@@ -59,6 +59,55 @@ export default function Assessments() {
               <p className="text-slate-600">Organizations using Saville Assessment report significant improvements in hiring accuracy, leadership development effectiveness, and employee engagement.</p>
             </div>
           </div>
+
+          {/* Additional Content */}
+          <div className="mt-16 max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Left Column - Text Content */}
+              <div>
+                <p className="text-xl text-slate-700 mb-6">
+                  By combining predictive analytics with deep contextual understanding of your culture and strategy, we design transformation experiences that are:
+                </p>
+                <ul className="space-y-3 mb-8 text-slate-700 text-xl">
+                  <li className="flex items-start">
+                    <span className="text-[#235ba8] font-bold mr-3">•</span>
+                    <span>Fully customized, never generic</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#235ba8] font-bold mr-3">•</span>
+                    <span>Culturally relevant and inclusive</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#235ba8] font-bold mr-3">•</span>
+                    <span>Directly tied to business outcomes</span>
+                  </li>
+                </ul>
+                <p className="text-xl text-slate-700 mb-6">
+                  We don&apos;t stop at data. We translate insight into practical, culturally aligned action, reducing leadership risk, strengthening succession, and aligning teams with your strategy.
+                </p>
+                <p className="text-xl text-slate-700 mb-6 italic">
+                  The result? Leaders who are aligned, teams that perform, and organizations built to sustain change, not just talk about it.
+                </p>
+                <p className="text-2xl font-semibold text-slate-900">
+                  Start with insight. Design change that delivers results.
+                </p>
+              </div>
+              
+              {/* Right Column - Stats Image */}
+              <div className="flex justify-center lg:justify-end">
+                <div className="relative group max-w-lg w-full">
+                  <div className="absolute -inset-2 bg-gradient-to-r from-blue-200 to-purple-200 rounded-2xl blur-lg opacity-30 group-hover:opacity-50 transition duration-300"></div>
+                  <div className="relative transform transition-all duration-300 group-hover:scale-[1.02]">
+                    <img 
+                      src="/stats-image.png" 
+                      alt="Change by Design Statistics" 
+                      className="w-full rounded-2xl shadow-xl"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
