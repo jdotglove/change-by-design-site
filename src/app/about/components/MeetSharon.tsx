@@ -15,7 +15,6 @@ export default function MeetSharon() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-5">
             <div className="aspect-w-3 h-full aspect-h-4 rounded-2xl bg-slate-100 overflow-hidden">
-              {/* Placeholder for Sharon's photo - replace with actual image */}
               <img src="/Glover_S_Pic.jpg" alt="Sharon Glover" className="object-cover w-full h-full" />
               <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-100 to-blue-50">
                 <svg className="h-32 w-32 text-blue-200" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

@@ -1,11 +1,5 @@
 import Button from "@/components/Button";
-import { 
-  BoltIcon, 
-  BeakerIcon, 
-  ArrowTrendingUpIcon, 
-  CheckCircleIcon, 
-  AcademicCapIcon,
-} from '@heroicons/react/24/outline';
+import { CheckCircleIcon } from '@heroicons/react/24/outline';
 
 export default function Assessments() {
   return (
@@ -13,12 +7,24 @@ export default function Assessments() {
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">
+          <h2 className="text-5xl font-bold mb-6">
             Data-Driven Transformation That Works
-          </h1>
+          </h2>
           <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
-            Start your transformation with the world&apos;s most predictive workplace assessment. At Change by Design, our integrated Saville Assessment platform provides instant insights into leadership potential, team dynamics, and development priorities—the foundation for all Change by Design&apos;s transformation work.
+            Start your transformation with the world&apos;s most predictive workplace assessment.
+             At Change by Design, our integrated Saville Assessment platform provides instant insights into leadership potential,
+              team dynamics, and development priorities—the foundation for all Change by Design&apos;s transformation work.
           </p>
+          <div className="mb-6">
+            <p className="text-xl text-white opacity-90 mb-6">
+              <span className="font-bold">People Don&apos;t Change by Accident.  They Change by Design.</span>
+            </p>
+            <p className="text-xl text-white opacity-90 mb-6">
+              <span className="font-bold">Fundamental transformation starts with clarity</span>—not assumptions or generic models.  
+              That&apos;s why we anchor our work in Saville Assessment, the world&apos;s most predictive workplace tool, 
+              giving you decision-grade insight into how people think, lead, and perform.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -26,42 +32,29 @@ export default function Assessments() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <div className="mb-8 flex justify-center">
+              <img 
+                src="/saville-assessment.png" 
+                alt="Saville Assessment" 
+                className="max-w-4xl w-full h-auto"
+              />
+            </div>
             <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Saville Assessment Powers Change By Design&apos;s Approach</h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center p-6 bg-slate-50 rounded-xl">
-              <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
-                  <AcademicCapIcon className="w-8 h-8 text-blue-600" />
-                </div>
-              </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-2">Scientific Foundation</h3>
               <p className="text-slate-600">Built on 15+ years of big data and global research, Wave questionnaires put the strongest predictor of workplace performance and potential in your hands.</p>
             </div>
             <div className="text-center p-6 bg-slate-50 rounded-xl">
-              <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
-                  <BoltIcon className="w-8 h-8 text-blue-600" />
-                </div>
-              </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-2">Instant Insights</h3>
               <p className="text-slate-600">Dynamic, on-demand dashboards provide immediate clarity on leadership strengths, development priorities, and team compatibility.</p>
             </div>
             <div className="text-center p-6 bg-slate-50 rounded-xl">
-              <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
-                  <BeakerIcon className="w-8 h-8 text-blue-600" />
-                </div>
-              </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-2">Proven Accuracy</h3>
               <p className="text-slate-600">Reduces bad hires from 1 in 5 to 1 in 50 with scientifically valid people data across the entire employee journey.</p>
             </div>
             <div className="text-center p-6 bg-slate-50 rounded-xl">
-              <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
-                  <ArrowTrendingUpIcon className="w-8 h-8 text-blue-600" />
-                </div>
-              </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-2">Measurable Impact</h3>
               <p className="text-slate-600">Organizations using Saville Assessment report significant improvements in hiring accuracy, leadership development effectiveness, and employee engagement.</p>
             </div>

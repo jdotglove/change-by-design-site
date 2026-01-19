@@ -1,6 +1,32 @@
+"use client";
 import Button from '@/components/Button';
+import { useEffect, useRef, useState } from 'react';
 
 export default function Services() {
+  const imageRef = useRef<HTMLDivElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (imageRef.current) {
+      observer.observe(imageRef.current);
+    }
+
+    return () => {
+      if (imageRef.current) {
+        observer.unobserve(imageRef.current);
+      }
+    };
+  }, []);
+
   return (
     <div className="pt-20 min-h-screen bg-gradient-to-br from-blue-50 to-slate-50">
       {/* Hero Section */}
@@ -32,6 +58,29 @@ export default function Services() {
             </p>
           </div>
 
+          {/* 4-C Image with Animation */}
+          <div 
+            ref={imageRef}
+            className={`mb-16 transition-all duration-1000 ease-out ${
+              isVisible 
+                ? 'opacity-100 translate-y-0' 
+                : 'opacity-0 translate-y-8'
+            }`}
+          >
+            <div className="flex justify-center">
+              <div className="relative group max-w-2xl w-full">
+                <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-purple-400 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-300"></div>
+                <div className="relative bg-white rounded-2xl p-4 shadow-xl transform transition-all duration-300 group-hover:scale-[1.02]">
+                  <img 
+                    src="/4-c-image.png" 
+                    alt="Change by Design 4 C's Framework" 
+                    className="w-full h-auto rounded-xl"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="max-w-4xl mx-auto space-y-8">
             {/* Executive Coaching */}
             <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl border border-blue-100">
@@ -40,7 +89,7 @@ export default function Services() {
                   1
                 </div>
                 <h3 className="text-xl font-bold text-black">
-                  Executive Coaching
+                  Executive Coaching (Capability)
                 </h3>
               </div>
               <p className="text-black mb-4 font-medium">
@@ -151,7 +200,7 @@ export default function Services() {
                   2
                 </div>
                 <h3 className="text-xl font-bold text-black">
-                  Leadership Development
+                  Leadership Development (Continuity)
                 </h3>
               </div>
               <p className="text-black mb-4 font-medium">
@@ -262,7 +311,7 @@ export default function Services() {
                   3
                 </div>
                 <h3 className="text-xl font-bold text-black">
-                  Culture Transformation
+                  Culture Transformation (Culture)
                 </h3>
               </div>
               <p className="text-black mb-4 font-medium">
@@ -374,7 +423,7 @@ export default function Services() {
                   4
                 </div>
                 <h3 className="text-xl font-bold text-black">
-                  Ways of Working Transformation
+                  Ways of Working Transformation (Clarity)
                 </h3>
               </div>
               <p className="text-black mb-4 font-medium">
